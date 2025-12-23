@@ -1,9 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import SectionTitle from "./SectionTitle";
 import { content } from "@/content/en";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ArrowRight } from "lucide-react";
 
 export default function CurriculumAccordion() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -78,6 +79,17 @@ export default function CurriculumAccordion() {
               </button>
             </div>
           ))}
+        </div>
+
+        {/* CTA to Full Programs Page */}
+        <div className="mt-12 text-center">
+          <Link
+            href="/programs"
+            className="group inline-flex items-center gap-3 bg-green-accent text-navy px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-accent/90 transition-all duration-300 shadow-2xl shadow-green-glow hover:shadow-green-accent/50 hover:scale-105 active:scale-95"
+          >
+            <span>View Full Curriculum with All Tracks</span>
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </Link>
         </div>
       </div>
     </section>

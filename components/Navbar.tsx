@@ -25,6 +25,8 @@ export default function Navbar() {
     { href: "#curriculum", label: content.nav.curriculum },
     { href: "#modules", label: content.nav.modules },
     { href: "#certificate", label: content.nav.certificate },
+    { href: "#tracks", label: content.nav.tracks },
+    { href: "/programs", label: "Programs" },
     { href: "#faq", label: "FAQ" },
     { href: "#contact", label: content.nav.contact },
   ];

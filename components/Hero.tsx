@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { ArrowRight, Play } from "lucide-react";
 import { content } from "@/content/en";
 
@@ -41,13 +42,13 @@ export default function Hero() {
               {content.hero.ctaPrimary}
               <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button
-              onClick={() => scrollToSection("#curriculum")}
+            <Link
+              href="/programs"
               className="bg-navy-light text-white border-2 border-green-accent px-6 py-3.5 sm:px-8 sm:py-4 lg:px-10 lg:py-5 rounded-xl font-bold text-base sm:text-lg lg:text-xl hover:bg-navy-lighter transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 w-full sm:w-auto hover:border-green-accent/70 hover:scale-105 active:scale-95"
             >
               <Play className="w-5 h-5 sm:w-6 sm:h-6" />
               {content.hero.ctaSecondary}
-            </button>
+            </Link>
           </div>
 
           <div className="flex items-center justify-center gap-2 text-xs sm:text-sm text-gray-400 mb-4 px-2">

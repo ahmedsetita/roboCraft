@@ -7,6 +7,7 @@ export const content = {
     results: "Results",
     modules: "Modules",
     certificate: "Certificate",
+    tracks: "Tech Tracks",
     contact: "Contact",
   },
   hero: {
@@ -338,11 +339,63 @@ export const content = {
       instagram: "https://www.instagram.com/ftyibhihvhj?igsh=MTN6dm9vbjBpNzZuOA==",
     },
   },
+  techTracks: {
+    title: "Tech Tracks",
+    subtitle: "Master the technologies that matter. Choose your path.",
+    current: {
+      title: "Robotics & Embedded Systems",
+      status: "Live Now",
+      description: "Build real robots. Master AI and computer vision. Launch your engineering career with hands-on projects.",
+      features: [
+        "16 intensive sessions with expert instructors",
+        "FREE Foundation Course included",
+        "Git & GitHub training",
+        "AI & Computer Vision integration",
+        "Portfolio-ready projects",
+      ],
+    },
+    comingSoon: [
+      {
+        title: "Flutter Apps",
+        description: "Build cross-platform mobile apps. Master Flutter, Dart, and app deployment. Create apps that work on iOS and Android.",
+        features: [
+          "Flutter & Dart fundamentals",
+          "State management patterns",
+          "API integration & backend",
+          "App deployment & publishing",
+          "Real-world app projects",
+        ],
+      },
+      {
+        title: "Web Development Track",
+        description: "Full-stack web development. Frontend, backend, and deployment. Build complete web applications from scratch.",
+        features: [
+          "Frontend: React, Next.js, TypeScript",
+          "Backend: Node.js, databases, APIs",
+          "Deployment & DevOps",
+          "Full-stack project development",
+          "Industry best practices",
+        ],
+      },
+      {
+        title: "AI for Engineers",
+        description: "Master AI, machine learning, and deep learning. Python, computer vision, and real AI applications for engineers.",
+        features: [
+          "Python programming & libraries",
+          "Machine Learning fundamentals",
+          "Deep Learning & Neural Networks",
+          "Computer Vision & NLP",
+          "Real AI engineering projects",
+        ],
+      },
+    ],
+  },
   footer: {
     copyright: "© 2024 RoboCraft Academy. All rights reserved.",
     tagline: "RoboCraft Academy for Robotics and Embedded Systems",
     social: {
       instagram: "https://www.instagram.com/ftyibhihvhj?igsh=MTN6dm9vbjBpNzZuOA==",
+      linkedin: "https://www.linkedin.com/in/ahmed-setita-9a624a2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
 };
