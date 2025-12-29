@@ -28,7 +28,7 @@ export const content = {
       },
       platform: {
         value: "Hands-on with",
-        label: "Tinkercad",
+        label: "Tinkercad & Wokwi",
       },
     },
   },
@@ -103,7 +103,7 @@ export const content = {
     points: [
       "FREE Foundation Course. Perfect for beginners. No prior knowledge needed. Includes Git & GitHub training.",
       "16 intensive sessions. 3 hours each. Maximum learning.",
-      "Hands-on Tinkercad projects. Build while you learn.",
+      "Hands-on Tinkercad & Wokwi projects. Build while you learn.",
       "Robotics + AI + Computer Vision. Complete skill set.",
       "Expert instructors. Real engineers. Real experience.",
       "Portfolio projects. Showcase your skills.",
@@ -227,9 +227,9 @@ export const content = {
     title: "Why Choose RoboCraft?",
     items: [
       {
-        title: "Hands-On Learning",
+        title: "Hands-On Tinkercad & Wokwi Projects",
         description:
-          "Every concept is applied immediately. Build projects. See results. No passive learning.",
+          "Every session includes practical projects on Tinkercad & Wokwi. Build circuits, write code, see results instantly. Simple, practical, and effective.",
         icon: "Code",
       },
       {
@@ -274,7 +274,7 @@ export const content = {
       {
         question: "What do I need?",
         answer:
-          "A computer and internet. We use Tinkercad for hands-on work. No hardware purchase required initially.",
+          "Just a computer and internet connection. We use Tinkercad & Wokwi for all hands-on work - they're simple and free. No hardware purchase required initially. Everything is practical on Tinkercad & Wokwi.",
       },
       {
         question: "Can I get a certificate?",

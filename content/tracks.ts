@@ -36,7 +36,7 @@ export const tracks: Track[] = [
         id: "session-1",
         slug: "arduino-intro-leds-buttons-buzzer-potentiometer",
         title: "Arduino Intro + LEDs + Buttons + Buzzer + Potentiometer",
-        subtitle: "Master the basics of Arduino programming and digital/analog I/O",
+        subtitle: "Master the basics of Arduino programming and digital/analog I/O - Hands-on with Tinkercad & Wokwi",
         duration: "3 hours",
         objectives: [
           "Understand Arduino platform and IDE",

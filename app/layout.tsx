@@ -14,7 +14,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "RoboCraft Academy - Master Robotics & Embedded Systems",
   description:
-    "Build real robots. Gain practical skills. Launch your engineering career. FREE foundation course + 16 intensive sessions with hands-on Tinkercad projects.",
+    "Build real robots. Gain practical skills. Launch your engineering career. FREE foundation course + 16 intensive sessions with hands-on Tinkercad & Wokwi projects.",
 };
 
 export default function RootLayout({
